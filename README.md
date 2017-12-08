@@ -4,8 +4,7 @@
 本文将结合以下内容解析 Tornado 源码
   - [tornado 官方文档](http://tornado-zh.readthedocs.io/zh/latest/guide/coroutines.html)
   - [Introduction To Tornado](http://demo.pythoner.com/itt2zh/index.html)
-  - tornado 源码
-
+  - [tornado 源码](http://github.com/tornadoweb/tornado/tree/stable/tornado)
 
 ## 2. tornado 组成部分
 Tornado 大体上可以被分为4个主要的部分:
@@ -44,6 +43,16 @@ UML: http://www.shaheng.me/blog/2016/08/tornado.html
     - http://www.itdadao.com/articles/c15a1258978p0.html
   - RequestHandle: http://www.nowamagic.net/academy/detail/13321023
 
+模板引擎:
+  - http://monklof.com/post/3/
+  - http://blog.csdn.net/yueguanghaidao/article/details/42061293
+  - http://www.cnblogs.com/liaofeifight/p/4962216.html
+  - https://www.yuanmas.com/info/9eaJGY6oy5.html
+
 
 ## 4. 使用示例
   - http://github.com/tornadoweb/tornado/tree/stable/demos
+
+## 5. 核心问题：
+1. @gen.coroutine, @gen.engine 的区别
+2. [stream_request_body 使用](https://github.com/tornadoweb/tornado/tree/master/demos/file_upload/)
